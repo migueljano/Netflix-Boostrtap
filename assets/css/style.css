@@ -17,21 +17,53 @@ body {
 }
 .img-fluid {
   opacity: 0.5;
-  transition: opacity 0.3s ease, filter 0.3s ease;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
 }
 
 .img-fluid:hover {
   opacity: 1;
-  filter: brightness(1.2);
+  transform: scaleX(1.1) scaleY(1.1);
+  transition: 0.7s;
+  z-index: 999;
 }
 .imgProfile {
   width: 30px;
   height: 30px;
 }
-.colorGenerico {
-  color: #999 !important;
+/*Edit Profile*/
+.btnborder {
+  border: 2px solid #302f2f;
 }
 
-.btnborder {
-  border: 1px solid #999 !important;
+.btnborder:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.contentAvatar img {
+  width: 150px;
+}
+
+.contentTest {
+  width: fit-content;
+  background-color: #212529;
+}
+
+
+.form-check-input {
+  background-color: transparent !important;
+  border-color: white !important;
+}
+
+
+.form-check-input:checked {
+  border-color: #007bff; 
+  background-color: blue !important;
+}
+
+.contentHeader {
+    display: flex;
+    justify-content: start;
+    width: auto;
 }
