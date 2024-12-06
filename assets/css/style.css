@@ -50,20 +50,19 @@ body {
   background-color: #212529;
 }
 
-
 .form-check-input {
+  cursor: pointer;
   background-color: transparent !important;
   border-color: white !important;
 }
 
-
 .form-check-input:checked {
-  border-color: #007bff; 
+  border-color: #007bff;
   background-color: blue !important;
 }
 
 .contentHeader {
-    display: flex;
-    justify-content: start;
-    width: auto;
+  display: flex;
+  justify-content: start;
+  width: auto;
 }
